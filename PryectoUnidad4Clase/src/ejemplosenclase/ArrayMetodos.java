@@ -224,17 +224,21 @@ public class ArrayMetodos {
 
 	public static Double[] rellenaArrayAleatoriosWrap(int numElementos, double maxDecimal) {
 
+	
+		return rellenaArrayAleatoriosWrap(numElementos, 0, maxDecimal);
+	}
+	
+	public static Double[] rellenaArrayAleatoriosWrap(int numElementos,double minDecimal, double maxDecimal) {
+
 		Double[] resultado = new Double[numElementos];
 		Random rand = new Random();
 		// numero aleatorio entre 0 y maxdecimal que cambiarlo
 
 		// rand.nextDouble() devuelve un decimal entre 0 y 1
 
-
-
 		for (int i = 0; i < numElementos; i++) {
 
-			resultado[i] = rand.nextDouble(0, maxDecimal);
+			resultado[i] = rand.nextDouble(minDecimal, maxDecimal);
 
 		}
 
@@ -261,6 +265,12 @@ public class ArrayMetodos {
 
 	public static Integer[] rellenaArrayAleatoriosWrap(int numElementos, int maxInt) {
 
+		return rellenaArrayAleatoriosWrap(numElementos,0, maxInt);
+
+	}
+	
+	public static Integer[] rellenaArrayAleatoriosWrap(int numElementos,int minInt, int maxInt) {
+
 		Integer[] resultado = new Integer[numElementos];
 		Random rand = new Random();
 		// numero aleatorio entre 0 y maxdecimal que cambiarlo
@@ -268,7 +278,7 @@ public class ArrayMetodos {
 
 		for (int i = 0; i < numElementos; i++) {
 
-			resultado[i] = rand.nextInt(0, maxInt);
+			resultado[i] = rand.nextInt(minInt, maxInt);
 
 		}
 
@@ -289,6 +299,10 @@ public class ArrayMetodos {
 		return arrayResultado;
 
 	}
+	
+	
+	
+	
 
 	public static double[] revierteArray(double[] arrayParam) {
 
@@ -403,6 +417,25 @@ public class ArrayMetodos {
 				
 			});
 			
+			
+			
+		}
+		
+		/// es una ñapa, a este nivel ya no podemos trabajar con arrays y genericos, lo que hemos anterior
+		// su esta bien
+		
+		public static <T extends Number> T[] sumaArrays(T[]array1, T[] array2) {
+			
+			Number[] arrayResultado =  new Number[array1.length];
+			
+			for (int i=0 ; i< arrayResultado.length ; i++) {
+				
+				
+				arrayResultado[i] = array1[i].doubleValue() + array2[i].doubleValue();
+			}
+			
+			
+			return (T[]) arrayResultado;
 			
 			
 		}
