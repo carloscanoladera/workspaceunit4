@@ -40,7 +40,7 @@ public class ArrayLiterales {
 			if (i == array.length - 1)
 				System.out.format("|%-20s|", array[i]);
 			else
-				System.out.format("|%-20s|", array[i]);
+				System.out.format("%-20s|", array[i]);
 
 		}
 
@@ -53,7 +53,7 @@ public class ArrayLiterales {
 		for (int i = 0;    i < array.length && !array[i].equals(cadFinal)  ; i++) {
 
 			if (i == array.length - 1)
-				System.out.format("|%-20s|", array[i]);
+				System.out.format("%-20s|", array[i]);
 			else
 				System.out.format("|%-20s|", array[i]);
 

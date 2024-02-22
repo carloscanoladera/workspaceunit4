@@ -9,13 +9,13 @@ public class MiPrimerArray {
 		
 		// con asignacion y valores
 		// creo un array de 7 elementos
-		int edadllenado[] = { 15, 16, 15,  7,  12, 13, 18 };
+		int [] edadllenado = { 15, 16, 15,  7,  12, 13, 18 };
 				// indice     0    1  2    3   4   5   6   7
 				
 				//lenght longitud 7
 		// array reservando memoria
 		// todos los valores estan a cero
-		int edad[] = new int[6];
+		int []edad = new int[6];
 		
 		Random rand = new Random () ;
 		

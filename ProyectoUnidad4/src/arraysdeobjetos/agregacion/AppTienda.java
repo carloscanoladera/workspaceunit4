@@ -3,7 +3,7 @@ package arraysdeobjetos.agregacion;
 public class AppTienda {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		
 		
 		Tienda tienda= new Tienda("Fragos","Calle la cava 18");
