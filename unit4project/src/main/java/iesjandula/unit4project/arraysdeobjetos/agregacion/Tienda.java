@@ -28,6 +28,16 @@ public class Tienda {
 		// copiar del array de clientes pasado como parámetro
 		// a nuestro array los clientes
 		// hacerlo en un método privado
+		
+		
+		for (int i=0; i <clientArray.length && i<CLIENTE_MAX ; i++) {
+
+				this.addCliente(clientArray[i]);
+			
+		}
+		
+		
+				
 	}
 	
 
