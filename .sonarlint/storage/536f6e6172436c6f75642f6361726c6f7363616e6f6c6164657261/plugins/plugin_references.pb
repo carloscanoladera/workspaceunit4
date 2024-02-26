@@ -22,7 +22,7 @@ Y
 kotlin 2443a391061ca12118776753d7456240#sonar-kotlin-plugin-2.20.0.4382.jar
 d
 licenseY
-license 36600d9682e2dce4a1f76002afc6be70,sonarlint-license-plugin-8.0.0.52970-all.jar
+license f68ad973422cdfa4d9b174fc7831d504,sonarlint-license-plugin-8.0.0.53038-all.jar
 Q
 phpJ
 php 9ebcdc896faca69897fcf4262abc65b2!sonar-php-plugin-3.34.0.11311.jar

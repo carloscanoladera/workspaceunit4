@@ -40,7 +40,7 @@ public class EjemploVarArgs {
 		return suma/num.length;
 	}
 	
-	// num está en la lista de parametros que va detras
+	// comprobar que num está en la lista de parametros que va detras
 	// recordar que solo puede haber un varargs y que debe ser el ultimo
 	// parámetro de la función si aparece con más parámetros
 	static boolean estaEnLista(int num, int...listaVarArgs) {

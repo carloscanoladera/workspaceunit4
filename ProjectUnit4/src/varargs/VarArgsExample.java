@@ -29,6 +29,26 @@ public class VarArgsExample {
 	    {
 	    
 	    }
+	 
+	 
+	    // Check if num is in the listVarArgs, provided as second parameter
+	 
+	    // only can be one varargs argument per function and it must be at 
+	    // the end of the arity. However you can place as many regular arguments 		
+		// as you wishbefore the vararg parameter
+		// 
+		static boolean isInList(int num, int...listVarArgs) {
+			boolean found=false;
+			
+			for (int i=0; i<listVarArgs.length &&!found ; i++) {
+				
+				if (listVarArgs[i]==num)
+					found=true;
+				
+			}
+			
+			return found;
+		}
     
  
     // Driver code

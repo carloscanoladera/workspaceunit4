@@ -11,3 +11,10 @@ local.properties
 .recommenders
 .class
 
+##sonarlint
+
+*.xd
+*.pb
+version
+*.lck
+**/.sonarlint

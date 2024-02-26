@@ -2,7 +2,7 @@
 '
 sonar.project.monorepo.enabledfalse
 5
-%sonaranalyzer-cs.nuget.packageVersion9.19.0.84025
+%sonaranalyzer-cs.nuget.packageVersion9.20.0.85982
 :
 'sonaranalyzer.security.cs.pluginVersion10.5.0-M1.30212
 %
@@ -18,7 +18,7 @@ E
 
 sonar.text.activatetrue
 8
-(sonaranalyzer-vbnet.nuget.packageVersion9.19.0.84025
+(sonaranalyzer-vbnet.nuget.packageVersion9.20.0.85982
 +
 sonar.cobol.dialectibm-enterprise-cobol
 
@@ -124,7 +124,7 @@ h
 
 email.fromnoreply@sonarcloud.io
 1
-!sonaranalyzer-vbnet.pluginVersion9.19.0.84025
+!sonaranalyzer-vbnet.pluginVersion9.20.0.85982
 (
  sonar.vbnet.ignoreHeaderCommentstrue
 
@@ -210,7 +210,7 @@ _
 8
 0sonar.qualityProfiles.allowDisableInheritedRulestrue
 E
-#sonaranalyzer-cs.staticResourceNameSonarAnalyzer-9.19.0.84025.zip
+#sonaranalyzer-cs.staticResourceNameSonarAnalyzer-9.20.0.85982.zip
 <
 5sonar.notifications.runningDelayBeforeReportingStatus600
 %
@@ -264,7 +264,7 @@ F
  
 sonar.python.file.suffixespy
 .
-sonaranalyzer-cs.pluginVersion9.19.0.84025
+sonaranalyzer-cs.pluginVersion9.20.0.85982
 Z
 ,sonaranalyzer.security.cs.staticResourceName*SonarAnalyzer.Security-10.5.0-M1.30212.zip
 $
@@ -288,7 +288,7 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET
 '
 sonar.text.inclusions.activatefalse
 H
-&sonaranalyzer-vbnet.staticResourceNameSonarAnalyzer-9.19.0.84025.zip
+&sonaranalyzer-vbnet.staticResourceNameSonarAnalyzer-9.20.0.85982.zip
 )
  sonar.vbnet.analyzeGeneratedCodefalse
 
@@ -315,7 +315,7 @@ H
 !
 sonar.tsql.file.suffixes.tsql
 0
-sonar.core.startTime2024-02-21T16:46:05+0100È
+sonar.core.startTime2024-02-26T13:41:07+0100È
 cssÀ
 
 	css:S4647BLOCKER
@@ -4524,32 +4524,54 @@ $cobol:COBOL.LinkageSectionUsageCheckCRITICAL
 *
 !cobol:COBOL.ExitProgramUsageCheckMAJOR
 8
-,cobol:COBOL.CopyInsideProcedureDivisionCheckCRITICAL2020-10-28T14:22:15+0000ò
-webê
+,cobol:COBOL.CopyInsideProcedureDivisionCheckCRITICAL2020-10-28T14:22:15+0000²	
+webª	
 !
 Web:DoctypePresenceCheckMAJOR
 
 Web:ImgWithoutAltCheckMINOR
 "
 Web:PageWithoutTitleCheckMAJOR
+
+	Web:S6848MINOR
 %
 Web:TableWithoutCaptionCheckMINOR
+
+	Web:S6825MAJOR
+
+	Web:S6847MINOR
 %
 Web:ServerSideImageMapsCheckMINOR
 
 	Web:S4645MAJOR
 
+	Web:S6846MINOR
+
+	Web:S6823MINOR
+
+	Web:S6845MINOR
+
+	Web:S6844MAJOR
+
+	Web:S6843MAJOR
+
 	Web:S1134MAJOR
 
 	Web:S5257MAJOR
+
+	Web:S6842MAJOR
 
 	Web:S1135INFO
 
 	Web:S5258CRITICAL
+
+	Web:S6841MAJOR
 '
 Web:FieldsetWithoutLegendCheckMINOR
 
 	Web:S5255MAJOR
+
+	Web:S6840MAJOR
 
 	Web:S5256MAJOR
 
@@ -4570,6 +4592,8 @@ $cobol:COBOL.LinkageSectionUsageCheckCRITICAL
 	Web:S5725MINOR
 -
 $Web:FlashUsesBothObjectAndEmbedCheckMINOR
+
+	Web:S6853MINOR
 (
 Web:UnsupportedTagsInHtml5CheckMAJOR
 
@@ -4577,13 +4601,21 @@ $Web:FlashUsesBothObjectAndEmbedCheckMINOR
 
 	Web:S5247MAJOR
 
+	Web:S6852MINOR
+
+	Web:S6851MINOR
+
+	Web:S6850MAJOR
+
 	Web:S5264MINOR
+
+	Web:S6793MAJOR
 )
  Web:TableHeaderHasIdOrScopeCheckMAJOR
 
 	Web:S5260CRITICAL
 '
-Web:AvoidCommentedOutCodeCheckMAJOR2023-11-28T13:31:34+0000Î
+Web:AvoidCommentedOutCodeCheckMAJOR2024-02-26T12:44:10+0000Î
 xmlÆ
 
 	xml:S2647CRITICAL
