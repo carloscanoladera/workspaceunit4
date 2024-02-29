@@ -22,7 +22,7 @@ Y
 kotlin 2443a391061ca12118776753d7456240#sonar-kotlin-plugin-2.20.0.4382.jar
 d
 licenseY
-license f68ad973422cdfa4d9b174fc7831d504,sonarlint-license-plugin-8.0.0.53038-all.jar
+license 1089eb2f1e2c8a0c2c621b62dd7098b4,sonarlint-license-plugin-8.0.0.53111-all.jar
 Q
 phpJ
 php 9ebcdc896faca69897fcf4262abc65b2!sonar-php-plugin-3.34.0.11311.jar
@@ -34,7 +34,7 @@ V
 plsql 023e3d6bbb8f571f12b7d7574df41c88"sonar-plsql-plugin-3.12.0.6513.jar
 Z
 pythonP
-python 5f511b3bd768412fb7dad531eb8cbe98$sonar-python-plugin-4.14.0.14263.jar
+python d603d7d36c74428a638193017536b336$sonar-python-plugin-4.15.0.14551.jar
 O
 rpgH
 rpg 8f81a622a37f5655b5f14ef51bee6cd5sonar-rpg-plugin-3.8.0.4662.jar

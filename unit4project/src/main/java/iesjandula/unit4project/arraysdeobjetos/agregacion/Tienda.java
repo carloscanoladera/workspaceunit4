@@ -144,5 +144,7 @@ public class Tienda {
 			clientes[i] = clienteNull;
 		}
 	}
+	
+	
 
 }
