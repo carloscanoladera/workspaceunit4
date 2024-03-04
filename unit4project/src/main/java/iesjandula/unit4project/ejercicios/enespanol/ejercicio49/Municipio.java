@@ -2,19 +2,23 @@ package iesjandula.unit4project.ejercicios.enespanol.ejercicio49;
 
 import java.util.Objects;
 
-public class Municipio implements Comparable<Municipio> {
+public abstract class Municipio implements Comparable<Municipio> {
 
 	private String nombre;
 	private int poblacion;
 	private double temperatura;
 	private double altitud;
+	private Alcalde alcalde;
 
-	public Municipio(String nombre, int poblacion, double temperatura, double altitud) {
+	public abstract boolean esPedania();
+
+	public Municipio(String nombre, int poblacion, double temperatura, double altitud, Alcalde alcalde) {
 		super();
 		this.nombre = nombre;
 		this.poblacion = poblacion;
 		this.temperatura = temperatura;
 		this.altitud = altitud;
+		this.alcalde = alcalde;
 	}
 
 	public String getNombre() {
@@ -49,10 +53,18 @@ public class Municipio implements Comparable<Municipio> {
 		this.altitud = altitud;
 	}
 
+	public Alcalde getAlcalde() {
+		return alcalde;
+	}
+
+	public void setAlcalde(Alcalde alcalde) {
+		this.alcalde = alcalde;
+	}
+
 	@Override
 	public String toString() {
 		return "Municipio [nombre=" + nombre + ", poblacion=" + poblacion + ", temperatura=" + temperatura
-				+ ", altitud=" + altitud + "]";
+				+ ", altitud=" + altitud + ", alcalde=" + alcalde + "]";
 	}
 
 	@Override
@@ -77,16 +89,17 @@ public class Municipio implements Comparable<Municipio> {
 
 		int compare;
 
-		if (this.poblacion == o.getPoblacion()) {
+		if (this.getPoblacion() == o.getPoblacion()) {
 
-			compare = this.nombre.compareTo(o.getNombre());
+			compare = this.getNombre().compareTo(o.getNombre());
 
 		} else {
 
-			compare = this.poblacion - o.getPoblacion();
+			compare = this.getPoblacion() - o.getPoblacion();
 		}
 
 		return compare;
+
 	}
 
 }

@@ -5,10 +5,10 @@ public class AppDepartamento {
 	public static void main(String[] args) {
 	
 
+		Alcalde alcalde = new Alcalde("Carlos", "Cano Ladera", EnumPartido.CENTRO);
 		
-		
-		Municipio m1= new Municipio("Andujar", 35000, 14.2, 250.2);
-		Municipio m2= new Municipio("Ubeda", 45000, 10.2, 455.2);
+		Villa m1= new Villa("Andujar", 35000, 14.2, 250.2, alcalde);
+		Pedania m2= new Pedania("Villa de Andujar", 45000, 10.2, 455.2, m1);
 		
 		Departamento dep = new Departamento("Sierra Morena");
 		

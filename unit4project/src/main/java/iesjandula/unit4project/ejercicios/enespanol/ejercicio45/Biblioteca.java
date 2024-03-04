@@ -5,6 +5,8 @@ public class Biblioteca {
 	private static final Libro libroNulo= new Libro("LibroNulo","LibroNulo",0,"LibroNulo","ZZZZZZZZZZZZZZZZZZZZZZZZZZZ");
 	private String nombre;
 	private Libro[] libros;
+	
+	private final int MAX_LIBROS=200;
 	private int contLibros=0;
 	
 	
