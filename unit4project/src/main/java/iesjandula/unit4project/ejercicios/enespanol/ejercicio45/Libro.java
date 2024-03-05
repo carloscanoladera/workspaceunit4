@@ -3,21 +3,24 @@ package iesjandula.unit4project.ejercicios.enespanol.ejercicio45;
 import java.util.Comparator;
 import java.util.Objects;
 
-public class Libro implements Comparable<Libro> {
+public abstract class Libro implements Comparable<Libro>, InfoAutor {
 
 	private String titulo;
-	private String autor;
+	private Autor autor;
 	private int annioPublicacion;
 	private String editorial;
 	private String referencia;
+	private EnumLibro tipoLibro;
 
-	public Libro(String titulo, String autor, int annioPublicacion, String editorial, String referencia) {
+	public Libro(String titulo, Autor autor, int annioPublicacion,
+			String editorial, String referencia, EnumLibro tipoLibro) {
 
 		this.titulo = titulo;
 		this.autor = autor;
 		this.annioPublicacion = annioPublicacion;
 		this.editorial = editorial;
 		this.referencia = referencia;
+		this.tipoLibro= tipoLibro;
 	}
 
 	public String getTitulo() {
@@ -28,11 +31,11 @@ public class Libro implements Comparable<Libro> {
 		this.titulo = titulo;
 	}
 
-	public String getAutor() {
+	public Autor getAutor() {
 		return autor;
 	}
 
-	public void setAutor(String autor) {
+	public void setAutor(Autor autor) {
 		this.autor = autor;
 	}
 
@@ -60,15 +63,29 @@ public class Libro implements Comparable<Libro> {
 		this.referencia = referencia;
 	}
 
+	
+	
+	
+	public EnumLibro getTipoLibro() {
+		return tipoLibro;
+	}
+
+	public void setTipoLibro(EnumLibro tipoLibro) {
+		this.tipoLibro = tipoLibro;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(referencia);
 	}
 
+	
+	
+	
 	@Override
 	public String toString() {
 		return "Libro [titulo=" + titulo + ", autor=" + autor + ", annioPublicacion=" + annioPublicacion
-				+ ", editorial=" + editorial + ", referencia=" + referencia + "]";
+				+ ", editorial=" + editorial + ", referencia=" + referencia + ", tipoLibro=" + tipoLibro + "]";
 	}
 
 	@Override
@@ -88,5 +105,13 @@ public class Libro implements Comparable<Libro> {
 		// TODO Auto-generated method stub
 		return this.getReferencia().compareTo(o.getReferencia());
 	}
+
+	@Override
+	public String obtenInforAutor() {
+		// TODO Auto-generated method stub
+		return this.getAutor().obtenInforAutor();
+	}
+	
+	
 
 }

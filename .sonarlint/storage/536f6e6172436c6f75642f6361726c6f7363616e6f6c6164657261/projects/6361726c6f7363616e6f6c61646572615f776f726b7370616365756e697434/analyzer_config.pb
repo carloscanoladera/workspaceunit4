@@ -4,7 +4,7 @@
 5
 %sonaranalyzer-cs.nuget.packageVersion9.20.0.85982
 :
-'sonaranalyzer.security.cs.pluginVersion10.5.0-M1.30212
+'sonaranalyzer.security.cs.pluginVersion10.5.0-M2.30409
 %
 sonar.cs.ignoreHeaderCommentstrue
 
@@ -72,7 +72,7 @@ E
 
 sonar.flex.file.suffixesas
 A
-.sonaranalyzer.security.cs.nuget.packageVersion10.5.0-M1.30212
+.sonaranalyzer.security.cs.nuget.packageVersion10.5.0-M2.30409
 
 sonar.filesize.limit20
 
@@ -266,7 +266,7 @@ F
 .
 sonaranalyzer-cs.pluginVersion9.20.0.85982
 Z
-,sonaranalyzer.security.cs.staticResourceName*SonarAnalyzer.Security-10.5.0-M1.30212.zip
+,sonaranalyzer.security.cs.staticResourceName*SonarAnalyzer.Security-10.5.0-M2.30409.zip
 $
 sonar.cs.file.suffixes
 .cs,.razor
@@ -315,7 +315,7 @@ H
 !
 sonar.tsql.file.suffixes.tsql
 0
-sonar.core.startTime2024-02-28T13:36:58+0100È
+sonar.core.startTime2024-03-05T08:45:37+0100È
 cssÀ
 
 	css:S4647BLOCKER
