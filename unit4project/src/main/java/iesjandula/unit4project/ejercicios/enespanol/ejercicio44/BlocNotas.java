@@ -1,7 +1,6 @@
 package iesjandula.unit4project.ejercicios.enespanol.ejercicio44;
 
-import iesjandula.unit4project.ejercicios.enespanol.ejercicio45.Libro;
-import iesjandula.unit4project.ejercicios.enespanol.ejercicio49.Municipio;
+
 
 public class BlocNotas {
 	
