@@ -1,6 +1,7 @@
 package iesjandula.unit4project.ejercicios.enespanol.ejercicio44;
 
-
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class BlocNotas {
 	
@@ -128,5 +129,56 @@ public class BlocNotas {
 				System.out.println(nota);
 			}
 	}
+	
+	
+	public void ordenarNotas() {
+
+
+		
+		Arrays.sort(notas);
+		
+
+		
+	}
+	
+	public void ordenarNotas(Comparator<Nota> comp) {
+		
+		
+
+		
+		Arrays.sort(notas, comp);
+		
+
+		
+		
+	
+	}
+	
+	
+	
+	public Nota[] devuelvaNotasOrdenado() {
+		
+		Nota [] res= this.getNotas();
+		
+		Arrays.sort(res);
+		
+		return res;
+		
+	}
+	
+	public Nota[] devuelvaNotasOrdenado(Comparator<Nota> comp) {
+		
+		
+		Nota [] res= this.getNotas();
+		
+		Arrays.sort(res, comp);
+		
+		return res;
+		
+		
+	
+	}
+	
+	
 
 }

@@ -2,7 +2,7 @@
 '
 sonar.project.monorepo.enabledfalse
 5
-%sonaranalyzer-cs.nuget.packageVersion9.20.0.85982
+%sonaranalyzer-cs.nuget.packageVersion9.21.0.86780
 :
 'sonaranalyzer.security.cs.pluginVersion10.5.0-M2.30409
 %
@@ -18,7 +18,7 @@ E
 
 sonar.text.activatetrue
 8
-(sonaranalyzer-vbnet.nuget.packageVersion9.20.0.85982
+(sonaranalyzer-vbnet.nuget.packageVersion9.21.0.86780
 +
 sonar.cobol.dialectibm-enterprise-cobol
 
@@ -124,7 +124,7 @@ h
 
 email.fromnoreply@sonarcloud.io
 1
-!sonaranalyzer-vbnet.pluginVersion9.20.0.85982
+!sonaranalyzer-vbnet.pluginVersion9.21.0.86780
 (
  sonar.vbnet.ignoreHeaderCommentstrue
 
@@ -210,7 +210,7 @@ _
 8
 0sonar.qualityProfiles.allowDisableInheritedRulestrue
 E
-#sonaranalyzer-cs.staticResourceNameSonarAnalyzer-9.20.0.85982.zip
+#sonaranalyzer-cs.staticResourceNameSonarAnalyzer-9.21.0.86780.zip
 <
 5sonar.notifications.runningDelayBeforeReportingStatus600
 %
@@ -264,7 +264,7 @@ F
  
 sonar.python.file.suffixespy
 .
-sonaranalyzer-cs.pluginVersion9.20.0.85982
+sonaranalyzer-cs.pluginVersion9.21.0.86780
 Z
 ,sonaranalyzer.security.cs.staticResourceName*SonarAnalyzer.Security-10.5.0-M2.30409.zip
 $
@@ -288,7 +288,7 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET
 '
 sonar.text.inclusions.activatefalse
 H
-&sonaranalyzer-vbnet.staticResourceNameSonarAnalyzer-9.20.0.85982.zip
+&sonaranalyzer-vbnet.staticResourceNameSonarAnalyzer-9.21.0.86780.zip
 )
  sonar.vbnet.analyzeGeneratedCodefalse
 
@@ -315,7 +315,7 @@ H
 !
 sonar.tsql.file.suffixes.tsql
 0
-sonar.core.startTime2024-03-05T08:45:37+0100È
+sonar.core.startTime2024-03-11T13:32:21+0100È
 cssÀ
 
 	css:S4647BLOCKER

@@ -14,6 +14,7 @@ public class EjemploClaseUtilidadArrays {
         
         int intKey = 22;
         
+  
        
         System.out.println(
             intKey + " encontrado en el indice = "
@@ -57,6 +58,30 @@ public class EjemploClaseUtilidadArrays {
         // To fill the arrays
         System.out.println("Array de enteros rellenado: "
                            + Arrays.toString(intArrRelleno));
+        
+        
+        
+        
+ // Ordenacion indices
+        
+        Arrays.sort(intArr,2,4);
+        
+   
+        System.out.println("Array de enteros ordenado de indices 2 al 4: "
+                           + Arrays.toString(intArr));
+        
+        // Ordenacion 
+        
+        Arrays.sort(intArray2);
+        
+ 
+        System.out.println("Array de enteros ordenado: "
+                           + Arrays.toString(intArray2));
+        
+        
+     
+
+
         
 	}
 

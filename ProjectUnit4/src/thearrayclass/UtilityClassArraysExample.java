@@ -58,6 +58,25 @@ public class UtilityClassArraysExample {
         System.out.println("Integer array filled up: "
                            + Arrays.toString(intArrRelleno));
         
+        
+// sorting with range
+        
+        Arrays.sort(intArr,2,4);
+        
+   
+        System.out.println("sorted array from index 2 to 4: "
+                           + Arrays.toString(intArr));
+        
+        // sorting
+        
+        Arrays.sort(intArray2);
+        
+ 
+        System.out.println("sorted array: "
+                           + Arrays.toString(intArray2));
+
+        
+        
 	}
 
 }
