@@ -10,19 +10,19 @@ U
 cobol 54324907fc6bcedc55317e8b07293b5c!sonar-cobol-plugin-5.6.0.7604.jar
 P
 dbdI
-dbd 6f46652ad49d33a2c75e02a813d9c5d2 sonar-dbd-plugin-1.22.0.7341.jar
+dbd dff6afe9e0754b7c2cdc9dd3b94551a7 sonar-dbd-plugin-1.23.0.7968.jar
 |
 dbdpythonfrontendg
-dbdpythonfrontend 39c7041e719f9b79cf99a6f073ace2ec0sonar-dbd-python-frontend-plugin-1.22.0.7341.jar
+dbdpythonfrontend ea6a29b818d5dd5bebb0b9fc6b4d68750sonar-dbd-python-frontend-plugin-1.23.0.7968.jar
 T
 javaL
-java 33488b09d3c8b4e1d10f212e314f6d1c"sonar-java-plugin-7.31.0.34839.jar
+java ba7f3303162e14b46b8f93320f2d27da"sonar-java-plugin-7.32.0.35531.jar
 Y
 kotlinO
 kotlin 2443a391061ca12118776753d7456240#sonar-kotlin-plugin-2.20.0.4382.jar
 d
 licenseY
-license a4e69d68c347a4882f78673da9e7a1d6,sonarlint-license-plugin-8.0.0.53322-all.jar
+license 7093777cda7315ae5990c7f611c37e6d,sonarlint-license-plugin-8.0.0.53566-all.jar
 Q
 phpJ
 php 9ebcdc896faca69897fcf4262abc65b2!sonar-php-plugin-3.34.0.11311.jar
@@ -34,7 +34,7 @@ V
 plsql 023e3d6bbb8f571f12b7d7574df41c88"sonar-plsql-plugin-3.12.0.6513.jar
 Z
 pythonP
-python d603d7d36c74428a638193017536b336$sonar-python-plugin-4.15.0.14551.jar
+python a1f37ca54b6407c29e14d6a84ef527be$sonar-python-plugin-4.17.0.14845.jar
 O
 rpgH
 rpg 8f81a622a37f5655b5f14ef51bee6cd5sonar-rpg-plugin-3.8.0.4662.jar

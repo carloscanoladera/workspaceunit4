@@ -46,4 +46,6 @@ public class Subdirectivo extends Empleado {
 		return sueldoBruto - this.calculaImpuestos(sueldoBruto, impuestos);
 	}
 
+
+
 }

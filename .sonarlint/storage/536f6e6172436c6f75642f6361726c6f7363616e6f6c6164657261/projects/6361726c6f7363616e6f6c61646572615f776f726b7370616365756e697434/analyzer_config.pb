@@ -2,7 +2,7 @@
 '
 sonar.project.monorepo.enabledfalse
 5
-%sonaranalyzer-cs.nuget.packageVersion9.21.0.86780
+%sonaranalyzer-cs.nuget.packageVersion9.23.0.88079
 :
 'sonaranalyzer.security.cs.pluginVersion10.5.0-M2.30409
 %
@@ -18,7 +18,7 @@ E
 
 sonar.text.activatetrue
 8
-(sonaranalyzer-vbnet.nuget.packageVersion9.21.0.86780
+(sonaranalyzer-vbnet.nuget.packageVersion9.23.0.88079
 +
 sonar.cobol.dialectibm-enterprise-cobol
 
@@ -98,8 +98,6 @@ k
 &
 sonar.yaml.file.suffixes
 .yaml,.yml
-$
-sonar.auth.bitbucket.enabledtrue
  
 sonar.terraform.activatetrue
 1
@@ -124,7 +122,7 @@ h
 
 email.fromnoreply@sonarcloud.io
 1
-!sonaranalyzer-vbnet.pluginVersion9.21.0.86780
+!sonaranalyzer-vbnet.pluginVersion9.23.0.88079
 (
  sonar.vbnet.ignoreHeaderCommentstrue
 
@@ -210,7 +208,7 @@ _
 8
 0sonar.qualityProfiles.allowDisableInheritedRulestrue
 E
-#sonaranalyzer-cs.staticResourceNameSonarAnalyzer-9.21.0.86780.zip
+#sonaranalyzer-cs.staticResourceNameSonarAnalyzer-9.23.0.88079.zip
 <
 5sonar.notifications.runningDelayBeforeReportingStatus600
 %
@@ -264,7 +262,7 @@ F
  
 sonar.python.file.suffixespy
 .
-sonaranalyzer-cs.pluginVersion9.21.0.86780
+sonaranalyzer-cs.pluginVersion9.23.0.88079
 Z
 ,sonaranalyzer.security.cs.staticResourceName*SonarAnalyzer.Security-10.5.0-M2.30409.zip
 $
@@ -288,7 +286,7 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET
 '
 sonar.text.inclusions.activatefalse
 H
-&sonaranalyzer-vbnet.staticResourceNameSonarAnalyzer-9.21.0.86780.zip
+&sonaranalyzer-vbnet.staticResourceNameSonarAnalyzer-9.23.0.88079.zip
 )
  sonar.vbnet.analyzeGeneratedCodefalse
 
@@ -315,7 +313,7 @@ H
 !
 sonar.tsql.file.suffixes.tsql
 0
-sonar.core.startTime2024-03-11T13:32:21+0100È
+sonar.core.startTime2024-03-27T10:07:49+0100È
 cssÀ
 
 	css:S4647BLOCKER
@@ -1409,8 +1407,8 @@ W
 
 javascript:S6821MAJOR
 
-javascript:S6270BLOCKER2024-02-14T09:31:33+0000±6
-pyª6
+javascript:S6270BLOCKER2024-02-14T09:31:33+0000«8
+py¤8
 
 python:S6659MINOR
 
@@ -1427,6 +1425,8 @@ W
 python:S5443CRITICAL
 
 python:S5685MINOR
+
+python:S6894MAJOR
 
 python:S2734BLOCKER
 
@@ -1439,6 +1439,8 @@ W
 python:S1763MAJOR
 
 python:S1764MAJOR
+
+python:S6890MAJOR
 J
 python:S2068BLOCKER"1
 credentialWordspassword,passwd,pwd,passphrase
@@ -1613,8 +1615,12 @@ K
 python:PreIncrementDecrementMAJOR
 
 python:S3752MINOR
+
+python:S6900MAJOR
  
 python:BackticksUsageBLOCKER
+
+python:S6903MAJOR
 
 python:S6463MAJOR
 
@@ -1629,6 +1635,8 @@ I
 format^[a-z_][a-z0-9_]*$
 
 pythonsecurity:S5334BLOCKER
+
+python:S6911MAJOR
 
 python:S5704CRITICAL
 
@@ -1637,6 +1645,8 @@ I
 python:S5707CRITICAL
 
 python:S5828BLOCKER
+
+python:S6918MAJOR
 
 python:S5708BLOCKER
 
@@ -1649,6 +1659,8 @@ I
 python:S3403BLOCKER
 
 pythonsecurity:S6639MAJOR
+
+python:S6908MAJOR
 2
 python:S116MINOR"
 format^[_a-z][_a-z0-9]*$
@@ -1664,6 +1676,8 @@ I
 python:S1110MAJOR
 
 python:S5714BLOCKER
+
+python:S6925MAJOR
 2
 python:S117MINOR"
 format^[_a-z][a-z0-9_]*$
@@ -1673,16 +1687,18 @@ I
 python:S5717CRITICAL
 
 pythonbugs:S2583MAJOR
+
+python:S6929MAJOR
 
 python:S5719BLOCKER
+
+python:S6928MAJOR
 
 python:S6002CRITICAL
 
 python:S6001CRITICAL
 
 python:S2208CRITICAL
-
-python:S6245MINOR
 )
 python:S3776CRITICAL"
 	threshold15
@@ -1690,6 +1706,8 @@ I
 pythonbugs:S2589MAJOR
 
 python:S5709CRITICAL
+
+python:S6919MAJOR
 1
 python:S125MAJOR"
 	exception(fmt|py\w+):.*
@@ -1834,8 +1852,6 @@ E
 python:S1045MAJOR
 $
 python:ExecStatementUsageBLOCKER
-
-python:S4792CRITICAL
 
 python:S6730MAJOR
 
@@ -1926,6 +1942,8 @@ $
 
 python:InequalityUsageMAJOR
 
+python:S6882MAJOR
+
 python:S1515MAJOR
 
 python:S5795MAJOR
@@ -1935,9 +1953,11 @@ $
 python:S5797CRITICAL
 
 python:S5799MAJOR
+
+python:S6887MAJOR
 (
 python:S1192CRITICAL"
-	threshold32023-12-20T12:58:18+0000Š
+	threshold32024-03-27T09:09:11+0000Š
 pli‚
 1
 pli:LineLengthMINOR"
@@ -2153,8 +2173,8 @@ tsql:S1065MAJOR
 tsql:S1066MAJOR
 
 
-tsql:S3641CRITICAL2023-02-01T09:22:52+0000¾
-secrets²
+tsql:S3641CRITICAL2023-02-01T09:22:52+0000Ø
+secretsÌ
 
 secrets:S6292BLOCKER
 
@@ -2250,6 +2270,8 @@ tsql:S3641CRITICAL2023-02-01T09:22:52+0000¾
 
 secrets:S6755BLOCKER
 
+secrets:S6910BLOCKER
+
 secrets:S6713BLOCKER
 
 secrets:S6703BLOCKER
@@ -2274,7 +2296,7 @@ tsql:S3641CRITICAL2023-02-01T09:22:52+0000¾
 
 secrets:S6736BLOCKER
 
-secrets:S6739BLOCKER2023-09-28T12:06:51+0000Ý
+secrets:S6739BLOCKER2024-03-14T10:29:02+0000Ý
 apexÔ
 
 
@@ -2778,8 +2800,8 @@ ruby:S1145MAJOR
 ruby:S2757MAJOR
 
 
-ruby:S3923MAJOR2020-10-28T14:21:58+0000Æb
-java½b
+ruby:S3923MAJOR2020-10-28T14:21:58+0000e
+javaød
 
 
 java:S3042MAJOR
@@ -3494,13 +3516,22 @@ java:S5785MAJOR
 java:S2157CRITICAL
 
 
+java:S6878MINOR
+
+
 java:S2159MAJOR
 
 
 java:S5669MAJOR
+
+
+java:S6876MAJOR
 
 
 java:S5547CRITICAL
+
+
+java:S6877MAJOR
 2
 
 java:S3008MINOR"
@@ -3512,6 +3543,9 @@ java:S3008MINOR"
 
 
 java:S2160MINOR
+
+
+java:S6881MAJOR
 
 
 java:S5790CRITICAL
@@ -3523,7 +3557,13 @@ java:S3010MAJOR
 java:S3252CRITICAL
 
 
+java:S6880MAJOR
+
+
 java:S3011MAJOR
+
+
+java:S6885MAJOR
 
 
 java:S3012MINOR
@@ -3542,6 +3582,9 @@ java:S2168BLOCKER
 
 
 java:S4347CRITICAL
+
+
+java:S6889MAJOR
 
 
 java:S4349MINOR
@@ -3840,6 +3883,9 @@ java:S5810MAJOR
 java:S3753BLOCKER
 
 
+java:S6901MAJOR
+
+
 java:S1612MINOR
 
 
@@ -3862,6 +3908,9 @@ java:S2789MAJOR
 
 
 java:S3878MINOR
+
+
+java:S6905MAJOR
 
 
 java:S3516BLOCKER
@@ -3871,6 +3920,12 @@ java:S4968MINOR
 
 
 java:S3518CRITICAL
+
+
+java:S6909MAJOR
+
+
+java:S6906MAJOR
 
 
 java:S1607MAJOR
@@ -3906,10 +3961,16 @@ java:S2675MAJOR
 java:S4973MAJOR
 
 
+java:S6912MAJOR
+
+
 java:S2676MINOR
 
 
 java:S2677MAJOR
+
+
+java:S6915MAJOR
 
 
 java:S2437BLOCKER
@@ -3918,10 +3979,16 @@ java:S2437BLOCKER
 java:S4977MINOR
 
 
+java:S6916MAJOR
+
+
 java:S2438MAJOR
 
 
 java:S4738MAJOR
+
+
+java:S6913MAJOR
 
 
 java:S5826CRITICAL
@@ -4336,7 +4403,7 @@ java:S1659MINOR
 java:S1656MAJOR
 
 
-java:S2864MAJOR2024-02-21T15:48:24+0000•
+java:S2864MAJOR2024-03-25T13:20:47+0000•
 cobol‹
 1
 %cobol:SQL.CursorOpenedInsideLoopCheckCRITICAL

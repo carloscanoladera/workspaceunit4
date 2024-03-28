@@ -10,9 +10,9 @@ public class Administrativo extends EmpleadoEducacion {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Administrativo(String nombre, String apellidos, String telefono, String direccion, double sueldoBruto,
+	public Administrativo(String dni,String nombre, String apellidos, String telefono, String direccion, double sueldoBruto,
 			double irpf, EnumCategoria categoria, EnumPerfil perfil) {
-		super(nombre, apellidos, telefono, direccion, sueldoBruto, irpf);
+		super(dni,nombre, apellidos, telefono, direccion, sueldoBruto, irpf);
 		// TODO Auto-generated constructor stub
 
 		this.categoria = categoria;
@@ -38,7 +38,7 @@ public class Administrativo extends EmpleadoEducacion {
 
 	@Override
 	public String toString() {
-		return "Administrativo [categoria=" + categoria + ", perfil=" + perfil + ", nombre=" + getNombre()
+		return "Administrativo [dni "+ getDni() + " categoria=" + categoria + ", perfil=" + perfil + ", nombre=" + getNombre()
 				+ ", apellidos=" + getApellidos() + ", telefono=" + getTelefono() + ", direccion=" + getDireccion()
 				+ ", sueldoBruto" + getSueldoBruto() + ", irpf)=" + getIrpf() + "]";
 	}

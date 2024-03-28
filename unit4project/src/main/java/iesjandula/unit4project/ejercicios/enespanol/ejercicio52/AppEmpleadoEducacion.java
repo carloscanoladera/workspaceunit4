@@ -5,22 +5,22 @@ public class AppEmpleadoEducacion {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Conserje c1 = new Conserje("Luis", "Lamas", "8234732987", "Calle Zm 23" , 20000, 0.15 );
-		Conserje c2 = new Conserje("Pepe", "Lopez", "47474747474", "Calle roda 3" , 20000, 0.15 );
+		Conserje c1 = new Conserje("443543978D", "Luis", "Lamas", "8234732987", "Calle Zm 23" , 20000, 0.15 );
+		Conserje c2 = new Conserje("411111978D","Pepe", "Lopez", "47474747474", "Calle roda 3" , 20000, 0.15 );
 
-		Profesor p1 = new Profesor("Julian", "Aragones",
+		Profesor p1 = new Profesor("4524478S","Julian", "Aragones",
 				"5555534343", "Via de la Plata sn" , 40000, 0.20, "Informatica", Profesor.CUERPO_FORMACIONPROFESIONAL, 5 );
 		
 
-		Profesor p2 = new Profesor("David", "Ros",
+		Profesor p2 = new Profesor("423523378D","David", "Ros",
 				"5235263434343", "Calle RAmon 5" , 30000, 0.20, "Ingles", Profesor.CUERPO_SECUNDARIA, 5 );
 
 		
-		Administrativo a1 = new Administrativo("Eustaquio", "García",
+		Administrativo a1 = new Administrativo("444454338S","Eustaquio", "García",
 				"36236363463", "Calle Atenas 7" , 30000, 0.20, EnumCategoria.CINCO, EnumPerfil.CONTABLE);
 	
 		
-		Administrativo a2 = new Administrativo("Raul", "Lopez",
+		Administrativo a2 = new Administrativo("443576668Z","Raul", "Lopez",
 				"36236363463", "Ronda norte sn" , 30000, 0.20, EnumCategoria.TRES, EnumPerfil.LEGISLATIVO);
 	
 	
