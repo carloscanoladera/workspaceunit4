@@ -113,7 +113,7 @@ public abstract class EmpleadoEducacion implements Comparable<EmpleadoEducacion>
 
 	@Override
 	public int compareTo(EmpleadoEducacion o) {
-		// TODO Auto-generated method stub
+
 		return this.getDni().compareTo(o.getDni());
 	}
 
